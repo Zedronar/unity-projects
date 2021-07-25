@@ -11,7 +11,7 @@
 ## Unity ECS Roguelike
 A traditional ascii roguelike built using Unity's ECS/DOTS framework. This project is based on [Rust Roguelike Tutorial](https://bfnightly.bracketproductions.com/rustbook/).
 
-![](Images/game.gif)
+![](https://github.com/Zedronar/unity-projects/blob/ecf573bd64d8ebca5030896413aff3f84d989bd4/dots-roguelike/Images/game.gif)
 
 ### Playing The Game
 You can run the game in the editor from the "Assets/DotsRogue/Scenes/DotsRogue" scene. In the game you can move in 9 directions using "QWEASDZXC", the keypad, or in the cardinal directions using the arrow keys. You can open your inventory with "I" and use items with the corresponding letter, and you can pick up items with "G".
