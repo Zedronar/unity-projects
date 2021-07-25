@@ -1,0 +1,27 @@
+{
+    "name": "DotsRogue",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Entities",
+        "Unity.Transforms",
+        "Unity.Mathematics",
+        "Unity.Scenes",
+        "Unity.Collections",
+        "Unity.Jobs",
+        "Unity.Burst",
+        "Sark.Common.Runtime",
+        "Sark.EntityUtils.Runtime",
+        "Sark.RNG.Runtime",
+        "Sark.Pathfinding.Runtime",
+        "Sark.Terminals.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
