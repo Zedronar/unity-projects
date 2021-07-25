@@ -21,7 +21,7 @@ The project consists of the game itself in the "DotsRogue" folder, and several l
 
 Of particular interest is the "Terminals" library which handles all the rendering for the game. It's built to be fast and efficient, and is completely Burst and Job safe. The terminal will only re-build it's internal mesh when it's been written to.
 
-# Using the Terminal
+### Using the Terminal
 Terminals are fully integrated with ECS. To create a terminal authoring object you can use the menu item "GameObject/Terminals/Create Terminal" and modify it's size and position in the editor. For correct rendering you should also create a Tiled Camera ("GameObject/TiledCamera/Create"), and ensure the terminal is centered and sized properly for the camera. **Incorrect terminal/camera positioning will cause noticable rendering artifacts.** 
 
 After you've created it via the menu option, the terminal authoring object should spawn with a ConvertToEntity script on it. When you play your scene, the terminal will be converted to it's entity representation.
