@@ -36,7 +36,6 @@ To write to the terminal from code you need to retrieve a "TerminalJobContext" o
 
 ``` csharp
 using Unity.Entities;
-
 using Sark.Terminals;
 
 [UpdateInGroup(typeof(LateSimulationSystemGroup)]
